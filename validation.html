@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    DIC Cafe
+  </title>
+  <link href="CSS/normalize.css" rel="stylesheet"/>
+  <link href="css/contact_validation.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <section class="section_inner">
+      <div class="section_title">
+        <h1>
+          CONTACT
+        </h1>
+        <p>
+          Contact Us
+        </p>
+      </div>
+      <form action="#" id="form" method="POST">
+        <table class="contact">
+          <tr class="contact_line">
+            <td class="contact_sign">
+              <label for="name">
+                name
+              </label>
+            </td>
+            <td class="contact_input">
+              <input id="name" name="name" type="text"/>
+            </td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign">
+              <label for="email">
+                Email (usu. in phrases like "e-mail", "text message", etc.)
+              </label>
+            </td>
+            <td class="contact_input">
+              <input id="email" name="email" type="email"/>
+            </td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign">
+              <label for="email_confirm">
+                Email (confirmation)
+              </label>
+            </td>
+            <td class="contact_input">
+              <input id="email_confirm" name="email_confirm" type="email"/>
+            </td>
+          </tr>
+          <tr class="contact_content">
+            <td class="contact_sign">
+              <label for="content">
+                Contents
+              </label>
+            </td>
+            <td class="contact_input">
+              <textarea id="content" name="content"></textarea>
+            </td>
+          </tr>
+        </table>
+        <div class="contact_btn_area">
+          <button class="contact_btn reset_btn" type="reset">
+            reset
+          </button>
+          <button class="contact_btn submit_btn" type="submit">
+            Send
+          </button>
+        </div>
+      </form>
+    </section>
+    <script src="javascripts/validation.js" type="text/javascript">
+    </script>
+  </body>
+</html>
